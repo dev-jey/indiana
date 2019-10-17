@@ -1,0 +1,179 @@
+.icon-height {
+  height: 2.8rem;
+  cursor: pointer;
+}
+
+.card-style {
+  width: 37rem;
+  height: 50rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.card-body {
+  padding: 2rem;
+}
+
+.card-text {
+  color: #888;
+  font-size: 1.3rem;
+  margin-top: 0.8rem;
+}
+
+.title-height {
+  height: 25px;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-height {
+  height: 85px;
+  text-align: justify;
+  word-wrap: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-container .card:not(:last-child),
+.card-container a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.top-content {
+  display: flex;
+}
+.count {
+  left: 10px;
+  bottom: -1.8em;
+}
+
+.dislike-count {
+  left: 0.2rem;
+}
+
+.reaction-container .count {
+  left: 0.5rem;
+  bottom: 0;
+  font-size: 2rem;
+  top: 1.5rem;
+}
+
+.reaction-container .dislike-count {
+  left: 0;
+}
+
+.reaction-container {
+  cursor: pointer;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon-holder {
+  display: flex;
+  margin-right: 15%;
+}
+
+.user-card .card-img-top,
+.article-card .card-img-top {
+  width: 45%;
+  object-fit: cover;
+}
+
+.image-wrapper {
+  height: 100px;
+}
+.icon-color {
+  opacity: 0.5;
+}
+.user-card {
+  box-shadow: 7px 10px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.user-name {
+  color: #0b41cd;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+.user-bio,
+.article-title {
+  height: 7rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-follow-details {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.card-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-card {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.tags-wrapper .badge {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #efefef;
+}
+
+.article-icons {
+  flex: 1 0 21%;
+  margin: 5px;
+}
+
+.image-wrapper-card {
+  height: 60% !important;
+}
+.image-card-style {
+  object-fit: cover;
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 1250px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-container .card:not(:last-child) {
+    margin-right: 0px;
+  }
+  .card {
+    margin-top: 15px;
+  }
+  .card-title-size{
+    text-align: center
+  }
+  .popular-bookmarked{
+    margin-top: 20px
+  }
+}
+
+@media only screen and (max-width: 1039px) {
+  .user-follow-details b {
+    width: 100%;
+    margin-bottom: 0.3rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 850px) {
+  .user-bio {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

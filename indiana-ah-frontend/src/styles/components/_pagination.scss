@@ -1,0 +1,59 @@
+.pagination {
+  background: white;
+  border: 0.1rem solid rgba(0, 0, 0, 0.15);
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.pagination a, .pagination li {
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  display: table-cell;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.pagination a:hover, .pagination li:hover {
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.pagination .next-page,
+.pagination .prev-page {
+  height: 0;
+  width: 0;
+  margin-top: 0.2rem;
+  border-bottom: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+}
+
+.pagination .next-page {
+  border-left: 1.7rem solid #0b41cd;
+}
+
+.pagination .prev-page {
+  border-right: 1.7rem solid #0b41cd;
+}
+
+.prev-page.caret-left-arrow-disabled {
+  border-right-color: #d8d8d8;
+}
+
+.next-page.caret-right-arrow-disabled {
+  border-left-color: #d8d8d8;
+}
+
+.active {
+  background: #0b41cd;
+  color: white;
+}
+
+.pagination li {
+cursor: pointer;
+}
+.brand-color{
+  color : rgba(11,65,205,1);
+}
+
+.user-article-btn button{
+  padding: 8px
+}

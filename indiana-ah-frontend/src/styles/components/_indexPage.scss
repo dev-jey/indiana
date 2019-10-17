@@ -1,0 +1,306 @@
+$l-pd-bottom: 4.3rem;
+$md-pd-bottom: 2.5rem;
+$sm-pd-bottom: 1rem;
+$sm-pd-size: 5.2rem;
+$gray: rgba(250,250,250,1);
+
+.w-80 {
+  width: 80%;
+}
+.mt-10 {
+  margin-top: 10rem;
+}
+
+h1 {
+  font-weight: $bold;
+  font-size: 4.2rem;
+}
+
+h2 {
+  font-weight: $bold;
+  font-size: 3.6rem;
+}
+
+p {
+  color: $opaque-black;
+  font-weight: $medium;
+}
+
+.banner {
+  color: rgba(0,0,0,1);
+  padding: $l-pd-size 0;
+  h1, h2 {
+    padding-bottom: $l-pd-bottom;
+    margin-bottom: 0;
+  }
+  .banner-p {
+    letter-spacing: .3rem;
+    font-size: 2.1rem;
+    padding-bottom: $l-pd-bottom;
+    font-family: 'The Girl Next Door', cursive;
+  }
+  .banner-p2 {
+    font-weight: $regular;
+    font-size: 2.7rem;
+    padding-bottom: $l-pd-bottom;
+  }
+}
+
+.reviews {
+  padding-top: $sm-pd-size;
+  padding-bottom: $sm-pd-size;
+  background-color: $gray;
+  box-shadow: 0 0.2rem 0.4rem rgba(146,143,143,.29);
+  h2 {
+    padding-bottom: $l-pd-size;
+  }
+  p {
+    font-style: italic;
+    font-size: 1.9rem;
+  }
+  .quotes {
+    width: 4.1rem;
+    height: auto;
+    margin: 2rem auto;
+  }
+  .reviews-name {
+    font-style: italic;
+    font-weight: $regular;
+    color: rgba(0,0,0,1);
+    margin-bottom: 0;
+  }
+}
+
+.top-articles, .new-articles {
+  padding: $sm-pd-size 1rem $sm-pd-size 2.5rem;
+  h1 {
+    color: rgba(0,0,0,1);
+    padding-bottom: 5rem;
+  }
+}
+.new-articles {
+  background-color: $gray;
+}
+
+.subscription {
+  background: rgba(253,253,255,1);
+  
+  .img-div {
+    float: left;
+    background: rgba(11,65,205,1);
+  }
+  .banner-img {
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+  }
+  h2 {
+    padding-bottom: 1.2rem;
+  }
+  p {
+    font-size: 1.9rem;
+  }
+  .sub-form {
+    margin-top: 4rem;
+    background-color: $white;
+    border: 0.05rem solid $opaque-black;
+    border-radius: 4px;
+    position: absolute;
+    width: 52rem;
+    z-index: 2;
+  }
+  .input-div {
+    display: inline-block;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .w-80 {
+    width: 100%;
+  }
+  .mt-10 {
+    margin-top: 3.5rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3.1rem;
+  }
+
+  .banner {
+    .banner-p {
+      font-size: 1.7rem;
+      padding-bottom: $md-pd-bottom;
+    }
+    .banner-p2 {
+      font-size: 2.3rem;
+      padding-bottom: $md-pd-bottom;
+    }
+    h2 {
+      padding-bottom: $md-pd-bottom;
+    }
+  }
+
+  .reviews {
+    h2 {
+      padding-bottom: 6rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+    .quotes {
+      width: 3rem;
+      margin: 1.5rem auto;
+    }
+  }
+
+  .subscription {
+    .sub-form {
+      width: 45rem;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+  h2 {
+    font-size: 2.7rem;
+  }
+
+  .banner {
+    .banner-p2 {
+      font-size: 2rem;
+    }
+  }
+
+  .reviews {
+    p {
+      font-size: 1.3rem;
+    }
+    .quotes {
+      width: 2.5rem;
+      margin: 1rem auto;
+    }
+  }
+
+  .subscription {
+    p {
+      font-size: 1.7rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.9rem;
+  }
+  .subscription {
+    h2 {
+      text-align: center;
+    }
+    .sub-form {
+      position: inherit;
+      margin: 4rem auto;
+    }
+    .banner-p2 {
+      width: 60%;
+      margin: auto;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+  h2 {
+    font-size: 2.15rem;
+  }
+
+  .banner {
+    h1 {
+      padding-bottom: $sm-pd-bottom;
+    }
+    .banner-p {
+      font-size: 1.2rem;
+      padding-bottom: $sm-pd-bottom;
+    }
+    .banner-p2 {
+      font-size: 1.7rem;
+      padding-bottom: $sm-pd-bottom;
+    }
+    h2 {
+      padding-bottom: $sm-pd-bottom;
+    }
+  }
+
+  .reviews {
+    p {
+      font-size: 1rem;
+    }
+    .quotes {
+      width: 2rem;
+      margin: 0.5rem auto;
+    }
+    h2 {
+      padding-bottom: $md-pd-bottom;
+    }
+  }
+}
+
+@media (max-width: 491px) {
+  .subscription {
+    .sub-form {
+      width: 40rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .banner {
+    padding: $sm-pd-size 0;
+    .index-banner {
+      text-align: center;
+    }
+    .index-button {
+      margin: auto;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .subscription {
+    .sub-form {
+      width: 35rem;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .col {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .reviews {
+    p {
+      font-size: 0.7rem;
+    }
+  }
+  .subscription {
+    .sub-form {
+      width: 30rem;
+    }
+    .input-div {
+      width: 60%;
+      margin: .7rem;
+    }
+  }
+}

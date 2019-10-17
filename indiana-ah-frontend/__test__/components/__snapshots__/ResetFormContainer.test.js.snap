@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reset Form should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.8rem;
+  margin: 0.1rem auto;
+  height: 4.3rem;
+  fill: #fbfcff;
+  border: 0.05rem solid rgba(0,0,0,0.4);
+  border-radius: 0.4rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.8rem 1.9rem;
+  height: 4.3rem;
+  background: #ffffff;
+  border: 0.05rem solid rgba(0,0,0,0.1);
+  border-radius: 0.2rem;
+}
+
+.c1 {
+  background: #0B41CD;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  align: Center;
+  -webkit-letterspacing: 5%;
+  -moz-letterspacing: 5%;
+  -ms-letterspacing: 5%;
+  letterspacing: 5%;
+  margin: auto;
+  height: 4.8rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  padding: .4rem 2.5rem;
+  display: block;
+}
+
+.c1:disabled {
+  color: #dddddd;
+  border: 0.2rem solid #dddddd;
+}
+
+@media (max-width:76.8rem) {
+  .c0 {
+    width: 100%;
+    padding: 0.8rem;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 3.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:830px) {
+  .c1 {
+    width: auto;
+    line-height: 2rem;
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width:355px) {
+  .c1 {
+    width: auto;
+    line-height: 1.5rem;
+    padding: .4rem 1.5rem;
+  }
+}
+
+<div
+  className="signup-form-container"
+>
+  <h3
+    className="text-center mt-5"
+  >
+    <img
+      alt="facebook logo"
+      className="signup-title"
+      src="test-file-stub"
+    />
+    <hr />
+  </h3>
+  <form
+    className="signup-form mb-5"
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-field"
+    >
+      <label
+        htmlFor="email"
+      />
+      <input
+        className="c0"
+        id="email"
+        name="email"
+        onChange={[Function]}
+        placeholder="Email"
+        required={true}
+        type="email"
+        value=""
+      />
+      <small
+        className="text-danger ml-3 form-text"
+      />
+    </div>
+    <p
+      className="text-center"
+    >
+      A reset link would be sent to your email
+    </p>
+    <button
+      className="c1"
+      height="4.8rem"
+      type="submit"
+      width="100%"
+    >
+      Reset Password
+    </button>
+  </form>
+</div>
+`;

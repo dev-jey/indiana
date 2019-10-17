@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the button element should mount custom button 1`] = `
+.c0 {
+  background: #fff;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  align: Center;
+  -webkit-letterspacing: 5%;
+  -moz-letterspacing: 5%;
+  -ms-letterspacing: 5%;
+  letterspacing: 5%;
+  border-radius: 0.4rem;
+  text-align: center;
+  color: #0B41CD;
+  cursor: pointer;
+  border: 0.2rem solid #0B41CD;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: auto;
+  padding: .8rem 1.3rem;
+  display: block;
+}
+
+.c0:disabled {
+  color: #dddddd;
+  border: 0.2rem solid #dddddd;
+}
+
+@media (max-width:830px) {
+  .c0 {
+    width: auto;
+    line-height: 2rem;
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width:355px) {
+  .c0 {
+    width: auto;
+    line-height: 1.5rem;
+    padding: .8rem 1.1rem;
+  }
+}
+
+<button
+  className="c0"
+/>
+`;

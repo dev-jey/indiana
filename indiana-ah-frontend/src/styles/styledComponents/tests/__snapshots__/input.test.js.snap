@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Input styled-component renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.8rem;
+  margin: 0.1rem auto;
+  height: 4.3rem;
+  fill: #fbfcff;
+  border: 0.05rem solid rgba(0,0,0,0.4);
+  border-radius: 0.4rem;
+  width: 94%;
+  box-sizing: border-box;
+  padding: 0.8rem 1.9rem;
+  height: 4.3rem;
+  background: #ffffff;
+  border: 0.05rem solid rgba(0,0,0,0.1);
+  border-radius: 0.2rem;
+}
+
+@media (max-width:76.8rem) {
+  .c0 {
+    width: 100%;
+    padding: 0.8rem;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 3.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+<input
+  className="c0"
+/>
+`;
+
+exports[`Custom Input styled-component renders dynamic width 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.8rem;
+  margin: 0.1rem auto;
+  height: 4.3rem;
+  fill: #fbfcff;
+  border: 0.05rem solid rgba(0,0,0,0.4);
+  border-radius: 0.4rem;
+  width: 20rem;
+  box-sizing: border-box;
+  padding: 0.8rem 1.9rem;
+  height: 4.3rem;
+  background: #ffffff;
+  border: 0.05rem solid rgba(0,0,0,0.1);
+  border-radius: 0.2rem;
+}
+
+@media (max-width:76.8rem) {
+  .c0 {
+    width: 100%;
+    padding: 0.8rem;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 3.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+<input
+  className="c0"
+/>
+`;
+
+exports[`Custom Text Area styled-component renders dynamic width 1`] = `
+.c0 {
+  padding: 0.8rem 1.9rem;
+  background: #ffffff;
+  border: 0.05rem solid rgba(0,0,0,0.1);
+  border-radius: 0.2rem;
+  width: 20rem;
+  box-sizing: border-box;
+}
+
+<textarea
+  className="c0"
+/>
+`;
+
+exports[`Custom Text Area styled-component renders dynamic width 2`] = `
+.c0 {
+  padding: 0.8rem 1.9rem;
+  background: #ffffff;
+  border: 0.05rem solid rgba(0,0,0,0.1);
+  border-radius: 0.2rem;
+  width: 37.1rem;
+  box-sizing: border-box;
+}
+
+<textarea
+  className="c0"
+/>
+`;

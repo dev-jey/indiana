@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BadgeComponent /> renders correctly 1`] = `
+<span
+  className="icon-holder"
+>
+  <img
+    alt="ClockIcon"
+    className="icon-height"
+    src="test-file-stub"
+  />
+  <sub
+    className="count"
+  >
+    2 days ago
+  </sub>
+</span>
+`;

@@ -1,0 +1,23 @@
+html {
+  // We will be working with rem instead of pixels
+  // Since 1rem = 16px, we set a default conversion percentage
+  // with this font-size, just divide your intended px value by 10.
+  // 22px becomes 2.2rem, 10px becomes 1rem, etc.
+  font-size: 62.5%;
+  min-height: 100%;
+  position: relative;
+}
+body {
+  // Alegreya is not available by default.
+  // There is a link to google fonts on the index.html file.
+  // This link gives us access to both Alegreya and Lato
+  font-family: 'Alegreya', sans-serif, Helvetica;
+  font-size: 1.6rem; // equivalent to the default 16px font-size
+  background: $white;
+  margin-bottom: 30rem;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}

@@ -1,0 +1,230 @@
+.SingleArticle {
+  font-size: 1rem;
+  background-color: #ffffff;
+  overflow-x: hidden;
+
+  .heading-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem auto;
+    width: 80%;
+
+    .heading-primary {
+      font-family: 'Open Sans', sans-serif;
+      text-transform: capitalize;
+      font-size: 5rem;
+      text-align: center;
+      margin: 0 2rem;
+      @media only screen and (max-width: 700px) {
+        font-size: 4rem;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 3rem;
+      }
+    }
+
+    .heading-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .article-info {
+      display: flex;
+      flex-direction: row;
+      margin: 2rem 2rem 1rem;
+      @media only screen and (max-width: 555px) {
+        flex-direction: column;
+      }
+    }
+
+    .author-image-box {
+      display: flex;
+      align-items: center;
+    }
+
+    .user-image {
+      border-radius: 50%;
+      border: 1px solid #eee;
+    }
+
+    .author {
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 20px;
+      color: #222;
+      font-weight: 300;
+      letter-spacing: 0.3rem;
+      margin-right: 3rem;
+      @media only screen and (max-width: 363px) {
+        width: 120px;
+      }
+      @media only screen and (max-width: 335px) {
+        margin-right: 1rem;
+        font-size: 15px;
+        letter-spacing: 0.1rem;
+        width: initial;
+      }
+    }
+
+    .follow-bookmark-box {
+      display: flex;
+      align-items: center;
+      @media only screen and (max-width: 555px) {
+        margin-top: 2rem;
+        justify-content: center;
+      }
+    }
+
+    .follow-btn {
+      padding: 0.1rem 2rem;
+      font-size: 2rem;
+      border: 2px solid #0b41cd;
+      border-radius: 5px;
+      color: #0b41cd;
+      margin: 0 3rem;
+      background-color: #ffffff;
+      cursor: pointer;
+    }
+
+    .bookmarkLogo {
+      height: 3.5rem;
+    }
+
+    .date-created {
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 20px;
+      color: #222;
+      font-weight: 300;
+    }
+
+    .time-to-read {
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 20px;
+      color: #222;
+      font-weight: 300;
+    }
+  }
+
+  .article-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 6rem auto;
+    width: 80%;
+    height: 50rem;
+
+    @media only screen and (max-width: 1100px) {
+      height: 30rem;
+      margin: 5rem auto;
+    }
+    @media only screen and (max-width: 700px) {
+      height: 20rem;
+      margin: 3rem auto;
+    }
+    @media only screen and (max-width: 400px) {
+      height: 12rem;
+      margin: 2rem auto;
+    }
+  }
+
+  .article-body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-body {
+    width: 70%;
+    font-size: 2.2rem;
+    font-family: 'Zilla Slab', serif;
+    line-height: 1.7;
+    color: #555;
+  }
+
+  .tags-container {
+    display: flex;
+    width: 70%;
+    font-size: 2rem;
+    margin: 5rem 2rem 0;
+    flex-wrap: wrap;
+  }
+
+  .article-tags {
+    margin: 1rem 2rem 0 0;
+    background-color: #efefef;
+    padding: 0 4rem;
+    border-radius: 4px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    color: #222;
+    font-weight: 300;
+  }
+
+  .reaction-share-section {
+    display: flex;
+    width: 70%;
+    margin: 4rem 0 5rem;
+    justify-content: space-between;
+    @media only screen and (max-width: 500px) {
+      flex-direction: column;
+    }
+  }
+
+  .reaction-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    @media only screen and (max-width: 500px) {
+      justify-content: space-evenly;
+    }
+  }
+
+  .reaction-logo {
+    width: 3rem;
+  }
+
+  .reaction-container > * {
+    display: inline-block;
+    margin-right: 4rem;
+    @media only screen and (max-width: 630px) {
+      margin-right: 1rem;
+    }
+  }
+
+  .share-container {
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width: 500px) {
+      justify-content: space-evenly;
+      margin: 4rem 0 0;
+    }
+  }
+
+  .share-text {
+    font-size: 20px;
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 400;
+    color: #0b41cd;
+  }
+
+  .social {
+    height: 3rem;
+    margin-right: 2rem;
+    @media only screen and (max-width: 630px) {
+      margin-right: 1rem;
+    }
+  }
+
+  .unbookmarked-icon {
+    cursor: pointer;
+  }
+
+  .bookmarked-icon {
+    cursor: pointer;
+    color: $brand-color;
+  }
+}
+
+.article-body p {
+  color: #404040;
+}

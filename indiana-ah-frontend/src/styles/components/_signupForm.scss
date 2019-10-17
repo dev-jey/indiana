@@ -1,0 +1,61 @@
+.signup-form-container {
+  h3 {
+    font-size: 2.2rem;
+  }
+  a {
+    color: $brand-color;
+    letter-spacing: 0.15rem;
+  }
+}
+.signup-title {
+  max-width: 120px;
+}
+.signup-form {
+  margin: auto;
+}
+
+.signup-form form {
+  margin-top: 40px;
+}
+
+.signup-form input {
+  height: 4.8rem;
+  outline: none;
+}
+.signup-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.signup-form button {
+  margin: 20px auto;
+}
+
+.align-button {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: 1.5rem auto 2rem auto;
+}
+
+a.ml-2 {
+  color: #0b41cd !important;
+  font-weight: bold;
+}
+
+.fade.modal.show {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.SMGVi {
+  width: 100%;
+  padding: 0.8rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 3.5rem;
+  font-size: 1.5rem;
+}
+.SMGVi::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}

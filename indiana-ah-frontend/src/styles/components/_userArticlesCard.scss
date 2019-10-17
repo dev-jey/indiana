@@ -1,0 +1,132 @@
+.user-article-card {
+  width: 100%;
+  margin-bottom: 4rem !important;
+  display: flex;
+  flex-direction: row;
+  max-height: 25rem;
+  .article-image-wrapper {
+    width: 25%;
+    .img-fluid {
+      object-fit: fill;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .article-card-body {
+    width: 75%;
+    padding: 2rem 4rem 2rem 4rem;
+  }
+  .article-title-div {
+    height: 25%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.1rem;
+    line-height: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .article-body {
+    height: 25%;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
+    margin-bottom: 1.8rem;
+    color: black;
+  }
+
+  .article-body:hover,
+  .article-title-div:hover {
+    color: gray;
+  }
+
+  .tags-wrapper {
+    margin-bottom: 2.2rem;
+  }
+  .badge {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .icon-holder {
+    margin-right: 4rem;
+    display: flex;
+  }
+
+  .icons {
+    width: 85%;
+  }
+
+  .action-button {
+    width: 14%;
+  }
+  .btn-primary {
+    background-color: #0b41cd;
+  }
+
+  button {
+    margin-bottom: 1rem;
+    margin-right: 0;
+    @media screen and (max-width: 1300px) {
+      padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    }
+    @media screen and (max-width: 1000px) {
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
+      font-size: 95%;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    flex-direction: column;
+    max-height: 50rem;
+    .article-image-wrapper {
+      width: 100%;
+      height: 50%;
+      .img-fluid {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .article-card-body {
+      width: 100%;
+      padding: 2rem;
+      height: 50%;
+    }
+
+    .article-title-div {
+      font-size: 2.5rem;
+      height: 20%;
+    }
+    .icon-holder {
+      margin-right: 2.2rem;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    height: 40rem;
+    .icon-holder {
+      margin-right: 1rem;
+    }
+    .article-title-div {
+      font-size: 1.7rem;
+    }
+
+    .article-body {
+      font-size: 1.3rem;
+    }
+
+    svg,
+    .icon-height {
+      height: 2rem;
+    }
+    .badge {
+      padding: 1rem;
+    }
+
+    @media screen and (max-width: 400px) {
+      .action-button {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,352 @@
+.quill {
+  margin-top: 0.5rem;
+}
+.text-editor {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+  justify-content: center;
+}
+.article-submit {
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  margin-left: auto;
+  outline: none !important;
+  justify-content: flex-end;
+  border: 0.1rem solid blue;
+  background-color: blue;
+  margin-bottom: 10rem;
+}
+.fa-pen {
+  color: white !important;
+  margin-right: 1rem;
+}
+.fa {
+  margin-right: 1rem;
+}
+.fa {
+  font-size: 2.4rem;
+}
+.ql-editor.ql-blank::before {
+  color: rgba(0, 0, 0, 0.34);
+  font-family: 'Alegreya', sans-serif, Helvetica;
+  font-style: normal;
+}
+.ql-picker-label:focus {
+  outline: none;
+}
+.ql-toolbar.ql-snow {
+  border: 0.04rem solid rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+}
+.ReactTags__tagInputField {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-family: inherit;
+  padding: 1.2rem 0;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-bottom: 0.2rem solid #c8ccd4;
+  background: none;
+  border-radius: 0;
+  color: #223254;
+  transition: all 0.15s ease;
+}
+div.ql-editor[data-placeholder] {
+  color: rgba(0, 0, 0, 0.34);
+}
+.image-button {
+  border-radius: 0.3rem;
+  color: rgb(22, 21, 21);
+  margin: 0.3rem 0;
+  padding: 1rem;
+  text-align: center;
+}
+.image-delete {
+  border-radius: 0.3rem;
+  color: rgb(22, 21, 21);
+  display: block;
+  margin: 3rem 0;
+  padding: 1rem;
+  text-align: center;
+}
+[type='file'] {
+  display: none;
+}
+
+.upload-image {
+  display: block;
+  margin: 0 auto;
+}
+.article-button {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+.article-title {
+  border: unset;
+  font-family: Lato, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 0.1rem solid black;
+  height: 2em;
+  margin: 2rem 0 0;
+  max-height: 5em;
+  min-height: 2em;
+  padding: 0;
+  width: 100%;
+  vertical-align: top;
+  outline: none;
+}
+.image-button span {
+  color: rgba(0, 0, 0, 0.34);
+}
+.ql-container.ql-snow {
+  border: unset;
+}
+
+.ql-toolbar.ql-snow {
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  padding: 0.8rem;
+}
+
+.ql-editor {
+  min-height: 20em;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.editor {
+  outline: none;
+  margin: 2rem;
+  height: 40rem;
+  font-size: 2rem !important;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  -webkit-user-modify: read-write-plaintext-only;
+}
+.ql-container p {
+  color: black;
+}
+.ql-toolbar.ql-snow {
+  box-sizing: border-box;
+  padding: 0.8rem;
+  outline: none;
+}
+.ql-toolbar.ql-snow,
+.ql-picker.ql-expanded,
+.ql-picker-label:focus {
+  border-color: #ccc;
+  outline: none !important;
+}
+.ql-snow .ql-picker-options .ql-picker-item:focus {
+  outline: none !important;
+}
+.ql-snow .ql-formats {
+  outline: none;
+}
+/* Snow Theme */
+.ql-snow.ql-toolbar {
+  display: block;
+  background: white;
+}
+
+/* Bubble Theme */
+.ql-bubble .ql-editor {
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5em;
+}
+
+.ql-editor {
+  min-height: 20em;
+  width: 100%;
+  font-size: 2rem;
+}
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.34);
+  font-family: 'Alegreya', sans-serif, Helvetica;
+}
+.ql-snow.ql-toolbar {
+  display: block;
+  color: #ddd;
+}
+textarea {
+  border: unset;
+  outline: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 3rem;
+  resize: none;
+  border-bottom: 0.1rem solid rgb(230, 223, 223);
+  width: 100%;
+}
+.image-div img {
+  width: 850px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+}
+.section-preview {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 50rem) {
+  .text-editor {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+    justify-content: center;
+  }
+  .article-button {
+    display: inline-block;
+    margin: 0;
+    justify-content: flex-start;
+  }
+  .article-submit {
+    padding: 1.5rem;
+    border-radius: 3rem;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 2rem;
+  }
+}
+
+.react-tagsinput-tag {
+  border-radius: 3px;
+  flex: 1;
+  border: 1px solid #ccc;
+  color: black;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+  padding: 5px;
+}
+.react-tagsinput {
+  background-color: #fff;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-left: 0.5rem;
+  width: 100%;
+}
+.tag {
+  margin-right: 10px;
+  height: 31.55px;
+  font-family: Alegreya;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: normal;
+  color: rgba(0, 0, 0, 0.34);
+}
+.react-tagsinput .tag-input-focus {
+  border-color: 1px solid #ccc !important;
+}
+
+.hhMDti {
+  background: #0b41cd;
+  text-align: Center;
+  -webkit-letterspacing: 5%;
+  -moz-letterspacing: 5%;
+  -ms-letterspacing: 5%;
+  border-radius: 0.4rem;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: auto;
+  padding: 0.8rem 1.3rem;
+  display: block;
+}
+
+@media (max-width: 1300px) {
+  .article-button {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+  }
+  .image-div img {
+    width: 710px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1100px) {
+  .article-button {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+  }
+  .image-div img {
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 900px) {
+  .article-button {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+  }
+  .image-div img {
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 600px) {
+  .image-button {
+    padding: 0rem;
+    text-align: center;
+  }
+  .article-button {
+    display: flex;
+  }
+  .image-div img {
+    width: 250px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 400px) {
+  .image-div img {
+    width: 250px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.errorMsg {
+  color: tomato;
+}
+.errorMsgtag {
+  color: tomato;
+  display: block;
+}

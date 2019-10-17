@@ -1,0 +1,50 @@
+.sidenav {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.is-active {
+  border-right: 3px solid #0b41cd;
+}
+
+.sidenav__logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 12rem;
+}
+
+.sidenav__logo-box:hover {
+  text-decoration: none;
+}
+
+.is-active > .sidenav__logo-label {
+  color: #222;
+  font-weight: bold;
+}
+
+.sidenav__logo-label {
+  margin: 0.5rem;
+  color: grey;
+}
+
+.sideNavLogos {
+  height: 5.5rem;
+}
+
+@media (max-width: 800px) {
+  .sidenav {
+    visibility: hidden;
+    position: absolute;
+    transition: all 0.3s;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+}

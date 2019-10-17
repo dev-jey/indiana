@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Navbar component test renders correctly 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-5"
+  >
+    <span
+      className="navbar-brand"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-bZQynM hVJJCu"
+        >
+          <img
+            className="feather"
+            src="test-file-stub"
+          />
+        </div>
+      </a>
+    </span>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        className="mr-auto ml-5 navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <div
+          className="search-bar"
+        >
+          <form
+            className=""
+            onSubmit={[Function]}
+          >
+            <div
+              className="mb-3 input-group"
+            >
+              <select
+                name="filterOption"
+                onChange={[Function]}
+              >
+                <option
+                  value=""
+                >
+                  All
+                </option>
+                <option
+                  value="author"
+                >
+                  Author
+                </option>
+                <option
+                  value="tag"
+                >
+                  Tag
+                </option>
+                <option
+                  value="title"
+                >
+                  Title
+                </option>
+              </select>
+              <input
+                aria-describedby="basic-addon2"
+                className="form-control"
+                name="searchValue"
+                onChange={[Function]}
+                placeholder="Search Articles"
+                required={true}
+                value=""
+              />
+              <div
+                className="input-group-append"
+              >
+                <span
+                  className="input-group-text"
+                  id="basic-addon2"
+                  onClick={[Function]}
+                >
+                  <i
+                    className="fa fa-search"
+                  />
+                </span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <button
+        className="ml-auto sc-htpNat dIJQYP"
+        onClick={[Function]}
+      >
+        Login
+      </button>
+    </div>
+  </nav>,
+  <div />,
+]
+`;

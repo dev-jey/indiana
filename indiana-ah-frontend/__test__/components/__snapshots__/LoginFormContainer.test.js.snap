@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Form should match snapshot 1`] = `
+<div
+  className="signup-form-container"
+>
+  <h3
+    className="text-center mt-5"
+  >
+    <img
+      alt="facebook logo"
+      className="signup-title"
+      src="test-file-stub"
+    />
+    <hr />
+  </h3>
+  <form
+    className="signup-form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-field"
+    >
+      <label
+        htmlFor="email"
+      />
+      <input
+        className="sc-bdVaJa doFRbm"
+        id="email1"
+        name="email"
+        onChange={[Function]}
+        placeholder="Email"
+        required={true}
+        type="email"
+        value=""
+      />
+      <small
+        className="text-danger ml-3 form-text"
+      />
+    </div>
+    <div
+      className="input-field"
+    >
+      <label
+        htmlFor="password"
+      />
+      <input
+        className="sc-bdVaJa doFRbm"
+        id="password"
+        name="password"
+        onChange={[Function]}
+        placeholder="Password"
+        required={true}
+        type="password"
+        value=""
+      />
+      <small
+        className="text-danger ml-3 form-text"
+      />
+    </div>
+    
+    <button
+      className="sc-htpNat hpCSJ"
+      disabled={false}
+      height="4.8rem"
+      type="submit"
+      width="95%"
+    >
+      login
+    </button>
+  </form>
+  <div
+    className="signup-form"
+  >
+    <div
+      className="social"
+    >
+      <ul>
+        <li
+          className="social-auth"
+        >
+          Or Login Using:
+        </li>
+        <li>
+          <a
+            href="https://indiana-ah-staging.herokuapp.com/auth/facebook"
+          >
+            <i
+              className="fab fa-lg fa-facebook-f"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://indiana-ah-staging.herokuapp.com/auth/twitter"
+          >
+            <i
+              className="fab fa-lg fa-twitter"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://indiana-ah-staging.herokuapp.com/auth/google"
+          >
+            <i
+              className="fab fa-lg fa-google"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <p
+    className="d-flex justify-content-center"
+  >
+    Dont have an account?
+     
+    <a
+      className="ml-2"
+      href="#"
+      onClick={[Function]}
+    >
+      Create one
+    </a>
+  </p>
+  <div
+    className="d-flex justify-content-center bg-light w-100 p-4 mt-3"
+  >
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      Forgot password?
+    </a>
+  </div>
+</div>
+`;
+
+exports[`test the login container form should match snap shot 1`] = `
+<div
+  className="signup-form-container"
+>
+  <h3
+    className="text-center mt-5"
+  >
+    <img
+      alt="facebook logo"
+      className="signup-title"
+      src="test-file-stub"
+    />
+    <hr />
+  </h3>
+  <form
+    className="signup-form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-field"
+    >
+      <label
+        htmlFor="email"
+      />
+      <input
+        className="sc-bdVaJa doFRbm"
+        id="email1"
+        name="email"
+        onChange={[Function]}
+        placeholder="Email"
+        required={true}
+        type="email"
+        value=""
+      />
+      <small
+        className="text-danger ml-3 form-text"
+      />
+    </div>
+    <div
+      className="input-field"
+    >
+      <label
+        htmlFor="password"
+      />
+      <input
+        className="sc-bdVaJa doFRbm"
+        id="password"
+        name="password"
+        onChange={[Function]}
+        placeholder="Password"
+        required={true}
+        type="password"
+        value=""
+      />
+      <small
+        className="text-danger ml-3 form-text"
+      />
+    </div>
+    
+    <button
+      className="sc-htpNat hpCSJ"
+      disabled={false}
+      height="4.8rem"
+      type="submit"
+      width="95%"
+    >
+      login
+    </button>
+  </form>
+  <div
+    className="signup-form"
+  >
+    <div
+      className="social"
+    >
+      <ul>
+        <li
+          className="social-auth"
+        >
+          Or Login Using:
+        </li>
+        <li>
+          <a
+            href="https://indiana-ah-staging.herokuapp.com/auth/facebook"
+          >
+            <i
+              className="fab fa-lg fa-facebook-f"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://indiana-ah-staging.herokuapp.com/auth/twitter"
+          >
+            <i
+              className="fab fa-lg fa-twitter"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://indiana-ah-staging.herokuapp.com/auth/google"
+          >
+            <i
+              className="fab fa-lg fa-google"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <p
+    className="d-flex justify-content-center"
+  >
+    Dont have an account?
+     
+    <a
+      className="ml-2"
+      href="#"
+      onClick={[Function]}
+    >
+      Create one
+    </a>
+  </p>
+  <div
+    className="d-flex justify-content-center bg-light w-100 p-4 mt-3"
+  >
+    <a
+      href="#"
+      onClick={[Function]}
+    >
+      Forgot password?
+    </a>
+  </div>
+</div>
+`;

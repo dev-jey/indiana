@@ -1,0 +1,519 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab component renders correctly 1`] = `
+Array [
+  <nav
+    className="nav nav-tabs"
+    onKeyDown={[Function]}
+    role="tablist"
+  >
+    <a
+      aria-controls="uncontrolled-tab-example-tabpane-Personal-Details"
+      aria-selected={true}
+      className="nav-item nav-link active"
+      data-rb-event-key="Personal-Details"
+      href="#"
+      id="uncontrolled-tab-example-tab-Personal-Details"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+    >
+      Personal Details
+    </a>
+    <a
+      aria-controls="uncontrolled-tab-example-tabpane-Update-Details"
+      aria-selected={false}
+      className="nav-item nav-link"
+      data-rb-event-key="Update-Details"
+      href="#"
+      id="uncontrolled-tab-example-tab-Update-Details"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+      tabIndex={-1}
+    >
+      Update Details
+    </a>
+    <a
+      aria-controls="uncontrolled-tab-example-tabpane-Settings"
+      aria-selected={false}
+      className="nav-item nav-link"
+      data-rb-event-key="Settings"
+      href="#"
+      id="uncontrolled-tab-example-tab-Settings"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="tab"
+      tabIndex={-1}
+    >
+      Settings
+    </a>
+  </nav>,
+  <div
+    className="tab-content"
+  >
+    <div
+      aria-hidden={false}
+      aria-labelledby="uncontrolled-tab-example-tab-Personal-Details"
+      className="fade tab-pane active show"
+      id="uncontrolled-tab-example-tabpane-Personal-Details"
+      role="tabpanel"
+    >
+      <div>
+        <div
+          className="personal-details row"
+        >
+          <div
+            className="col-sm-4 col-md-4"
+          >
+            <h6
+              className="pb-15"
+            >
+              Name
+            </h6>
+            <h5
+              className="black"
+            >
+              Ezenwa Ogbonna
+            </h5>
+          </div>
+          <div
+            className="col-sm-4 col-md-4"
+          >
+            <h6
+              className="pb-15"
+            >
+              Email
+            </h6>
+            <h5
+              className="black"
+            >
+              ezenwaogbonna1@gmail.com
+            </h5>
+          </div>
+          <div
+            className="col-sm-4 col-md-4"
+          >
+            <h6
+              className="pb-15"
+            >
+              Date Registered
+            </h6>
+            <h5
+              className="black"
+            >
+              25/3/2019
+            </h5>
+          </div>
+        </div>
+        <div
+          className="bio row"
+        >
+          <div
+            className="col-md-11"
+          >
+            <h6
+              className="pb-15"
+            >
+              Bio
+            </h6>
+            <h5
+              className="black bio-text"
+            >
+              jwkwewkwkkwkwwww
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden={true}
+      aria-labelledby="uncontrolled-tab-example-tab-Update-Details"
+      className="fade tab-pane"
+      id="uncontrolled-tab-example-tabpane-Update-Details"
+      role="tabpanel"
+    >
+      <div
+        className="w-100 row"
+      >
+        <div
+          className="update-details"
+        >
+          <div
+            className="col-md-12 profile-form"
+          >
+            <div
+              className="details-form"
+            >
+              <div
+                className="input-div"
+              >
+                <label
+                  htmlFor="name"
+                >
+                  Name
+                </label>
+                <input
+                  className="sc-bdVaJa cUynHz"
+                  id="name"
+                  name="name"
+                  onChange={[Function]}
+                  placeholder="Ezenwa Ogbonna"
+                  required={true}
+                  type="text"
+                  value="Ezenwa Ogbonna"
+                />
+                <small
+                  className="text-danger ml-3 form-text"
+                />
+              </div>
+              <div
+                className="input-div"
+              >
+                <label
+                  htmlFor="username"
+                >
+                  Username
+                </label>
+                <input
+                  className="sc-bdVaJa ghizKm"
+                  id="username"
+                  name="username"
+                  onChange={[Function]}
+                  placeholder="drizzy"
+                  required={true}
+                  type="text"
+                  value="drizzy"
+                />
+                <small
+                  className="text-danger ml-3 form-text"
+                />
+              </div>
+            </div>
+            <div
+              className="bio-form"
+            >
+              <div
+                className="form-group"
+              >
+                <label
+                  className="form-label"
+                  htmlFor="exampleForm.ControlTextarea1"
+                >
+                  Bio
+                </label>
+                <textarea
+                  className="form-control"
+                  id="exampleForm.ControlTextarea1"
+                  name="bio"
+                  onChange={[Function]}
+                  placeholder="jwkwewkwkkwkwwww"
+                  rows="3"
+                  value="jwkwewkwkkwkwwww"
+                />
+              </div>
+            </div>
+            <button
+              className="sc-htpNat dIJQYP"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Update
+            </button>
+          </div>
+          <div
+            className="col-md-6 password-form"
+          >
+            <h3
+              className="text-center"
+            >
+              Change Password
+            </h3>
+            <div>
+              <div
+                className="input-div"
+              >
+                <label
+                  htmlFor="currentPassword"
+                />
+                <input
+                  className="sc-bdVaJa dJSnKx"
+                  id="currentPassword"
+                  name="currentPassword"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="Current Password"
+                  required={true}
+                  type="password"
+                  value=""
+                />
+                <small
+                  className="text-danger ml-3 form-text"
+                >
+                  
+                </small>
+              </div>
+            </div>
+            <div>
+              <div
+                className="input-div"
+              >
+                <label
+                  htmlFor="newPassword"
+                />
+                <input
+                  className="sc-bdVaJa dJSnKx"
+                  id="newPassword"
+                  name="newPassword"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="New Password"
+                  required={true}
+                  type="password"
+                  value=""
+                />
+                <small
+                  className="text-danger ml-3 form-text"
+                >
+                  
+                </small>
+              </div>
+            </div>
+            <div
+              className="mb-30"
+            >
+              <div
+                className="input-div mb-30"
+              >
+                <label
+                  htmlFor="confirmPassword"
+                />
+                <input
+                  className="sc-bdVaJa dJSnKx"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="Confirm Password"
+                  required={true}
+                  type="password"
+                  value=""
+                />
+                <small
+                  className="text-danger ml-3 form-text"
+                />
+              </div>
+            </div>
+            <button
+              className="sc-htpNat dIJQYP"
+              disabled={true}
+              onClick={[Function]}
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      aria-hidden={true}
+      aria-labelledby="uncontrolled-tab-example-tab-Settings"
+      className="fade tab-pane"
+      id="uncontrolled-tab-example-tabpane-Settings"
+      role="tabpanel"
+    >
+      <div
+        className="settings d-flex row"
+      >
+        <div
+          className="col-md-6 notification-box text-center"
+        >
+          <h3>
+            Turn on Notifications
+          </h3>
+          <p>
+            Subscribing to this service will alert you to events such as someone liking your article
+          </p>
+          <div
+            style={
+              Object {
+                "MozTransition": "opacity 0.25s",
+                "MozUserSelect": "none",
+                "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                "WebkitTransition": "opacity 0.25s",
+                "WebkitUserSelect": "none",
+                "borderRadius": 14,
+                "display": "inline-block",
+                "msUserSelect": "none",
+                "opacity": 1,
+                "position": "relative",
+                "textAlign": "left",
+                "touchAction": "none",
+                "transition": "opacity 0.25s",
+                "userSelect": "none",
+              }
+            }
+          >
+            <div
+              className="react-switch-bg"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              style={
+                Object {
+                  "MozTransition": "background 0.25s",
+                  "WebkitTransition": "background 0.25s",
+                  "background": "#888888",
+                  "borderRadius": 14,
+                  "cursor": "pointer",
+                  "height": 28,
+                  "margin": 0,
+                  "position": "relative",
+                  "transition": "background 0.25s",
+                  "width": 56,
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "MozTransition": "opacity 0.25s",
+                    "WebkitTransition": "opacity 0.25s",
+                    "height": 28,
+                    "opacity": 0,
+                    "pointerEvents": "none",
+                    "position": "relative",
+                    "transition": "opacity 0.25s",
+                    "width": 30,
+                  }
+                }
+              >
+                <svg
+                  height="100%"
+                  style={
+                    Object {
+                      "position": "absolute",
+                      "top": 0,
+                    }
+                  }
+                  viewBox="-2 -5 17 21"
+                  width="100%"
+                >
+                  <path
+                    d="M11.264 0L5.26 6.004 2.103 2.847 0 4.95l5.26 5.26 8.108-8.107L11.264 0"
+                    fill="#fff"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div
+                style={
+                  Object {
+                    "MozTransition": "opacity 0.25s",
+                    "WebkitTransition": "opacity 0.25s",
+                    "height": 28,
+                    "opacity": 1,
+                    "pointerEvents": "none",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "transition": "opacity 0.25s",
+                    "width": 30,
+                  }
+                }
+              >
+                <svg
+                  height="100%"
+                  style={
+                    Object {
+                      "position": "absolute",
+                      "top": 0,
+                    }
+                  }
+                  viewBox="-2 -5 14 20"
+                  width="100%"
+                >
+                  <path
+                    d="M9.9 2.12L7.78 0 4.95 2.828 2.12 0 0 2.12l2.83 2.83L0 7.776 2.123 9.9 4.95 7.07 7.78 9.9 9.9 7.776 7.072 4.95 9.9 2.12"
+                    fill="#fff"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              className="react-switch-handle"
+              onClick={[Function]}
+              onMouseDown={[Function]}
+              onTouchCancel={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "MozTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                  "WebkitTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                  "background": "#ffffff",
+                  "border": 0,
+                  "borderRadius": "50%",
+                  "boxShadow": null,
+                  "cursor": "pointer",
+                  "display": "inline-block",
+                  "height": 26,
+                  "outline": 0,
+                  "position": "absolute",
+                  "top": 1,
+                  "transform": "translateX(1px)",
+                  "transition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                  "width": 26,
+                }
+              }
+            />
+            <input
+              checked={false}
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyUp={[Function]}
+              role="switch"
+              style={
+                Object {
+                  "border": 0,
+                  "clip": "rect(0 0 0 0)",
+                  "height": 1,
+                  "margin": -1,
+                  "overflow": "hidden",
+                  "padding": 0,
+                  "position": "absolute",
+                  "width": 1,
+                }
+              }
+              type="checkbox"
+            />
+          </div>
+          <h3
+            className="mt-2 mb-0"
+          >
+            Turn On
+          </h3>
+        </div>
+        <div
+          className="col-md-6 deactivate text-center"
+        >
+          <h3>
+            Deactivate Your Account
+          </h3>
+          <p>
+            Once Deactivated, you will not be able to access your account Ever Again
+          </p>
+          <button
+            className="sc-htpNat jGPecQ"
+          >
+            Deactivate
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

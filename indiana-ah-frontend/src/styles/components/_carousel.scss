@@ -1,0 +1,79 @@
+.carousel-card.card-style {
+  width: 33rem;
+}
+.carousel-spinner {
+  width: 25rem;
+  height: 25rem;
+  margin: 0 auto;
+  display: block;
+}
+
+@media only screen and (max-width: 840px) {
+  .carousel-card.card-style {
+    width: 37rem;
+  }
+  .carousel-spinner {
+    width: 23rem;
+    height: 23rem;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .carousel-card.card-style {
+    width: 35rem;
+  }
+  .carousel-spinner {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .carousel-card.card-style {
+    width: 33rem;
+  }
+  .carousel-spinner {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .carousel-card.card-style {
+    width: 30rem;
+  }
+  .carousel-spinner {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .carousel-card.card-style {
+    width: 27rem;
+  }
+  .carousel-spinner {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .carousel-card.card-style {
+    width: 24rem;
+  }
+  .carousel-spinner {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .carousel-card.card-style {
+    width: 95%;
+  }
+  .carousel-spinner {
+    width: 10rem;
+    height: 10rem;
+  }
+}

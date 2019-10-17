@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Social auth page component renders correctly 1`] = `
+<div>
+  <p>
+    We are verifying your account.....
+  </p>
+</div>
+`;

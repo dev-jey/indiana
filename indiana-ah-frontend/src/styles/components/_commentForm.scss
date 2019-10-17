@@ -1,0 +1,167 @@
+.comment-section {
+  background-color: rgba(252,252,252,1);
+  width: 100%;
+  h2 {
+    margin-left: 2rem;
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  h3, h3 {
+    font-size: 1.3rem;
+    margin-left: 5rem;
+  }
+}
+.card-body {
+  padding: 1rem 1rem 0 2rem;
+}
+
+.button-loading {
+  float: right;
+  padding: 3px 3px 0 10px;
+}
+
+.comment-textarea {
+  width: 20.0rem;
+  border: none;
+  border-bottom: 0.05rem solid #ccc;
+  outline: none;
+  font-size: 2rem;
+  font-weight: unset;
+}
+.mb-5, .my-5 {
+  margin-bottom: 1.5rem!important;
+}
+.comment-form {
+  h1 {
+    left: 29.6rem;
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7rem;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  img {
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 50%;
+    width: 4.0rem;
+    height: 4.0rem;
+  }
+  .row {
+    flex-wrap: unset;
+    justify-content: flex-start;
+    padding-left: 2.5rem;
+    padding-left: 2.5rem;
+  }
+  .col-xs-9 {
+    margin-top: 1.0rem;
+  }
+}
+.image {
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 50%;
+  max-width: 4.5rem;
+  max-height: 4.5rem;
+}
+.cKRIiy {
+  margin-left: 15rem;;
+}
+@media (min-width: 576px) { 
+  .cKRIiy {
+    margin-left: 3rem;
+}
+  .comment-textarea {
+    width: 40.0rem;
+  }
+  .comment-form {
+    h1 {
+      font-size: 1.7rem;
+    }
+  }
+  .comment-section{
+    .h3, h3 {
+      font-size: 1.75rem;
+      margin-left: 5rem;
+    }
+    h1, h2 {
+      font-size: 2.7rem;
+    }
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .comment-textarea {
+    width: 55.0rem;
+  }
+  .comment-form {
+    h1 {
+      font-size: 2.0rem;
+    }
+  }
+  .comment-section{
+    .h3, h3 {
+      font-size: 1.75rem;
+      margin-left: 5rem;
+    }
+    h1, h2 {
+      font-size: 2.7rem;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .comment-textarea {
+    width: 70.0rem;
+  }
+  .comment-form {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  .comment-section{
+    .h3, h3 {
+      font-size: 1.75rem;
+      margin-left: 5rem;
+    }
+    h1, h2 {
+      font-size: 2.7rem;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .comment-textarea {
+    width: 88rem;
+  }
+  .comment-section {
+    h1, h2 {
+      font-size: 2.7rem;
+    }
+    h2 {
+      margin-left: 10.5rem;
+      padding-bottom: 3rem;
+    }
+    button {
+      margin-left: auto;
+    }
+    .ml-4, .mx-4 {
+      margin-left: 10.5rem!important;
+    }
+    .h3, h3 {
+      font-size: 1.75rem;
+      margin-left: 15rem;
+    }
+  }
+  .add-comment-box {
+    margin-right: 11rem;
+    margin-left: 9rem
+  }
+}

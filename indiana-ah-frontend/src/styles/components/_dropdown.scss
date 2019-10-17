@@ -1,0 +1,43 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: -0.4rem;
+}
+.dropdown {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 4.5rem;
+    right: 0rem;
+    width: 20rem;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    font-weight: unset;
+    box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  li a {
+    color: #000;
+    text-decoration: none;
+  }
+  li {
+    padding: 1.6rem 1.6rem;
+    border-bottom: 0.1rem solid #e5e5e5;
+  }
+  li:hover {
+    background-color: #e5e5e5;
+    color: black;
+  }
+
+  .fa-caret-down {
+    color: #0b41cd;
+    font-size: 3rem;
+  }
+  .ml-5 {
+    margin-left: 2rem !important;
+    margin-top: 0.6rem !important;
+    background-color: white;
+  }
+}

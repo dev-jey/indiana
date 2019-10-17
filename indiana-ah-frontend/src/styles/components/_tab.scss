@@ -1,0 +1,374 @@
+.tabs {
+  max-height: 50rem;
+  h6 {
+    height: 4rem;
+    font-size: 1.4rem;
+    font-weight: $medium;
+  }
+  h5,
+  .nav a {
+    font-size: 1.9rem;
+    font-weight: $medium;
+  }
+  .nav a,
+  .nav a:hover {
+    color: $opaque-black;
+  }
+  .nav .active:hover,
+  .nav-link.active {
+    color: rgba(0, 0, 0, 1);
+  }
+  .nav-tabs .nav-item {
+    margin-bottom: 1px;
+  }
+  .nav-item.nav-link {
+    padding-right: 2rem;
+  }
+  .nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .nav-tabs {
+    border-bottom: 0.25px solid $opaque-black;
+  }
+  .nav {
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+  }
+  .active {
+    background: rgba(255, 255, 255, 1);
+    color: inherit;
+  }
+  .nav-item.nav-link.active {
+    border-bottom: 3px solid $brand-color;
+  }
+  .pb-15 {
+    padding-bottom: 1.5rem;
+  }
+  .personal-details {
+    h5 {
+      overflow-wrap: break-word;
+    }
+    padding: 3.975rem 1.5rem 3.975rem 3.5rem;
+  }
+  .bio {
+    padding: 3.5rem;
+    .bio-text {
+      letter-spacing: 2px;
+    }
+  }
+}
+.update-details {
+  display: flex;
+  width: 100%;
+  > div:first-child {
+    flex-basis: 60%;
+  }
+}
+.password-form {
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 4.5rem;
+  flex-basis: 40%;
+  button {
+    margin-left: auto;
+  }
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.15);
+    font-size: 1.4rem;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.15);
+    font-size: 1.4rem;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(0, 0, 0, 0.15);
+    font-size: 1.4rem;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.15);
+    font-size: 1.4rem;
+  }
+}
+.profile-form {
+  border-right: 0.05rem solid rgba(206, 212, 218, 1);
+  padding: 2rem 3.5rem;
+  .details-form {
+    display: flex;
+    padding-bottom: 1rem;
+  }
+  .details-form > div:first-child {
+    width: 70%;
+  }
+  .bio-form {
+    padding-bottom: 2rem;
+  }
+  label {
+    font-size: 1.4rem;
+    font-weight: $medium;
+    margin-left: 1.2rem;
+  }
+  button {
+    margin-left: auto;
+  }
+  textarea {
+    resize: none;
+    font-size: 1.6rem;
+    margin: 1.2rem;
+    width: 93%;
+    border-radius: 0.4rem;
+    border: 0.05rem solid rgba(206, 212, 218, 1);
+  }
+}
+
+.settings {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  h3 {
+    font-weight: $bold;
+    font-size: 2.2rem;
+    margin-bottom: 3.3rem;
+  }
+  p {
+    margin-bottom: 2.9rem;
+  }
+  .notification-box {
+    padding: 0 5rem;
+    border-right: 0.05rem solid rgba(206, 212, 218, 1);
+  }
+  .deactivate {
+    padding: 0 7rem;
+    button {
+      margin: auto;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .tabs {
+    max-height: 60rem;
+    .personal-details {
+      padding: 1.975rem 1.5rem 1.975rem 3.5rem;
+    }
+  }
+  .profile-form {
+    padding: 2rem 3rem;
+    .details-form {
+      flex-direction: column;
+      > div:first-child {
+        width: 100%;
+      }
+    }
+    textarea {
+      width: 100%;
+    }
+  }
+  .password-form {
+    padding-left: 1.5rem;
+    .input-div {
+      margin-bottom: 3.8rem;
+    }
+  }
+  .settings {
+    .notification-box,
+    .deactivate {
+      padding: 0 2rem;
+    }
+  }
+  .col-md-1 {
+    -ms-flex: 0 0 1.333333%;
+    flex: 0 0 1.333333%;
+    max-width: 1.333333%;
+  }
+}
+
+@media (max-width: 991px) {
+  .tabs {
+    .nav-item.nav-link {
+      padding-right: 1rem;
+    }
+    h5 {
+      font-size: 1.5rem;
+    }
+    .personal-details {
+      padding: 3.975rem 1.5rem 0.975rem 3rem;
+    }
+    .nav a {
+      font-size: 1.7rem;
+    }
+  }
+  .profile-form {
+    .bio-form {
+      padding-bottom: 0.8rem;
+    }
+  }
+  .password-form {
+    .input-div {
+      margin-bottom: 1.8rem;
+    }
+  }
+
+  .settings {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    .deactivate {
+      padding: 0 0.5rem;
+    }
+    .notification-box {
+      padding: 0 1rem;
+    }
+  }
+}
+
+@media (max-width: 875px) {
+  .profile {
+    h3 {
+      font-size: 1.9rem;
+    }
+  }
+  .profile-form {
+    padding: 2rem 3rem 2rem 1rem;
+    .input-div {
+      input {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .settings h3 {
+    font-size: 1.9rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .tabs {
+    .nav-item.nav-link {
+      padding-right: 3rem;
+    }
+    .nav a {
+      font-size: 1.5rem;
+    }
+  }
+  .password-form {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    .input-div {
+      margin-bottom: 3.6rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .settings {
+    .notification-box {
+      padding: 1rem;
+      border-right: none;
+      border-bottom: 0.05rem solid rgba(206, 212, 218, 1);
+    }
+    .deactivate {
+      padding: 0 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .tabs {
+    max-height: 91rem;
+    .nav a {
+      font-size: 2rem;
+    }
+    h6 {
+      height: 2rem;
+    }
+  }
+  .profile {
+    label {
+      font-size: 1.4rem !important;
+    }
+  }
+  .update-details {
+    flex-direction: column;
+  }
+  .settings {
+    flex-direction: column !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    p {
+      width: 50%;
+      margin: auto;
+      margin-bottom: 2rem;
+    }
+    .deactivate {
+      padding: 1rem;
+    }
+  }
+  .password-form {
+    .input-div {
+      margin-bottom: 0.6rem;
+    }
+  }
+  .profile-form,
+  .settings .notification-box {
+    border-right: none;
+    border-bottom: 0.05rem solid rgba(206, 212, 218, 1);
+  }
+}
+
+@media (max-width: 491px) {
+  .tabs {
+    .nav-item.nav-link {
+      padding-right: 1rem;
+    }
+    .personal-details {
+      padding: 3.975rem 0.5rem 0.975rem 0.5rem;
+    }
+    .nav a {
+      font-size: 1rem;
+    }
+    h6 {
+      height: 2rem;
+    }
+    .bio {
+      padding: 2rem 0.5rem;
+    }
+    .nav {
+      padding-left: 0.5rem;
+    }
+  }
+  .profile {
+    label {
+      font-size: 1rem !important;
+    }
+  }
+  .update-details {
+    flex-direction: column;
+  }
+  .settings {
+    flex-direction: column !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    h3 {
+      margin-bottom: 1.3rem;
+    }
+    p {
+      width: 50%;
+      margin: auto;
+      margin-bottom: 2rem;
+    }
+    .notification-box {
+      padding: 1rem;
+    }
+    .deactivate {
+      padding: 1rem;
+    }
+  }
+  .profile-form,
+  .settings .notification-box {
+    border-right: none;
+    border-bottom: 0.05rem solid rgba(206, 212, 218, 1);
+  }
+}
